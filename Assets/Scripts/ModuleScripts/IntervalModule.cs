@@ -133,6 +133,7 @@ public class IntervalModule : MonoBehaviour {
     }
 
 	string TwitchHelpMessage = "Do !{0} 1 2 1 to press the two buttons (1 is left, 2 is right).";
+	int TwitchModuleScore = 10;
 
 	IEnumerator ProcessTwitchCommand(string command) {
 		var parts = command.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
